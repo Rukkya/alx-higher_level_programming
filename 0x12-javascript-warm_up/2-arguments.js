@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-
+#!/usr/bin/node
 // Get the number of arguments passed to the script (excluding the first two default arguments)
 const args = process.argv.slice(2); // `process.argv` contains the command-line arguments
 
