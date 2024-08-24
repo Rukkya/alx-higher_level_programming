@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
 // Convert command-line arguments to integers
 const args = process.argv.slice(2).map(arg => parseInt(arg, 10));
